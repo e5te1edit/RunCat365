@@ -23,7 +23,7 @@ namespace RunCat365
         private readonly FormsTimer timer;
         private readonly Theme systemTheme;
         private GameStatus status = GameStatus.NewGame;
-        private Cat cat = new Cat.Running(Cat.Running.Frame.Frame0);
+        private Cat cat = new Cat.Running(Cat.jump0);
         private readonly List<Road> roads = [];
         private int counter = 0;
         private int limit = 5;
